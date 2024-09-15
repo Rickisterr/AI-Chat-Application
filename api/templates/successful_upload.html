@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Successful Upload</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            background-color: lightblue;
+            padding: 5%;
+            border: 1vh solid peachpuff;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 5vh;
+        }
+
+        button {
+            background-color: #FFB366;
+            color: white;
+            border: none;
+            padding: 7.5px 12.5px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #FFA533;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>File Uploaded Successfully!</h1>
+
+        <form action="/home" method="get">
+            <button type="submit">Back Home</button>
+        </form>
+    </div>
+</body>
+</html>
